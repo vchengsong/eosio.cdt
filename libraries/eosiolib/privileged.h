@@ -92,6 +92,10 @@ extern "C" {
     */
    uint32_t get_blockchain_parameters_packed( char* data, uint32_t datalen );
 
+   // *bos*
+   void set_controller_lists_packed( char* data1, uint32_t datalen1, char* data2, uint32_t datalen2, char* data3, uint32_t datalen3);
+   uint32_t get_controller_lists_packed( char* data1, uint32_t datalen1, char* data2, uint32_t datalen2, char* data3, uint32_t datalen3);
+
    /**
     * @brief Activate new feature
     * Activate new feature

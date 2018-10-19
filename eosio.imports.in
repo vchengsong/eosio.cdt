@@ -49,6 +49,8 @@ set_resource_limits
 set_proposed_producers
 get_blockchain_parameters_packed
 set_blockchain_parameters_packed
+get_controller_lists_packed
+set_controller_lists_packed
 is_privileged
 set_privileged
 checktime
