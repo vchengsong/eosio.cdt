@@ -93,8 +93,8 @@ extern "C" {
    uint32_t get_blockchain_parameters_packed( char* data, uint32_t datalen );
 
    // *bos*
-   void set_controller_lists_packed( char* data1, uint32_t datalen1, char* data2, uint32_t datalen2, char* data3, uint32_t datalen3);
-   uint32_t get_controller_lists_packed( char* data1, uint32_t datalen1, char* data2, uint32_t datalen2, char* data3, uint32_t datalen3);
+   void set_name_list_packed(int64_t list, int64_t action, char* data, uint32_t datalen);
+   void set_resouces_minimum_guarantee(int64_t ram, int64_t cpu, int64_t net);
 
    /**
     * @brief Activate new feature
